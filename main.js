@@ -70,9 +70,9 @@ function Validator(options){
                     options.onSubmit(formValues);
                     if(alertRegrister){
                         alert('Regrister account success!')
-                        window.location.href = 'file:///D:/JavascriptCoban/Login-Regrister/loginForm.html';
+                        window.location.href = 'https://dongvuvd7.github.io/Login-RegristerF8/loginForm.html';
                     }
-                    else window.location.href = 'file:///C:/Users/LEGION/Desktop/WebMISADemo/UI/pages/customer.html'
+                    else window.location.href = 'http://localhost:8080/#/employee'
                 } else { // truong hop submit mac dinh
                     formElement.submit();
                 }
